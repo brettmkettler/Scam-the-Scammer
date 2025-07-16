@@ -4,7 +4,7 @@ const axios = require('axios');
 const VAPI_API_KEY = process.env.VAPI_API_KEY;
 
 // Test phone number - replace with your number in E.164 format
-const TEST_PHONE_NUMBER = "+19412242216"; // Make sure this is in correct international format
+const TEST_PHONE_NUMBER = "+12223334444"; // Make sure this is in correct international format
 
 async function testPhoneCall() {
   try {
